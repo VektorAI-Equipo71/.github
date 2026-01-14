@@ -2,7 +2,7 @@
 
 <div align="center">
   
-<img width="1080" height="1080" alt="Vektor AI - Logo" src="https://github.com/user-attachments/assets/ab1b9eb5-94c1-4b2b-9ea5-6a6a97e00a11" />
+<img width="300" height="300" alt="Vektor AI - Logo" src="https://github.com/user-attachments/assets/ab1b9eb5-94c1-4b2b-9ea5-6a6a97e00a11" />
 
 **Predicción Inteligente de Retrasos de Vuelos**
 
