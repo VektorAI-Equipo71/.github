@@ -261,16 +261,15 @@ Las cinco variables más importantes: CRS_DEP_TIME, CRS_ARR_TIME, humedad, tempe
 | **Cobertura** | Aerolíneas | 15 |
 
 ### Comparación de Modelos
-(CORREGIR)
 
 Durante el desarrollo se evaluaron 4 modelos:
 
 | Modelo | Accuracy | Tiempo Entrenamiento | Selección |
 |:-------|:--------:|:--------------------:|:---------:|
-| Logistic Regression | 78% | ⚡ 5min | ❌ |
+| Logistic Regression | 60% | ⚡ 5min | ❌ |
 | **Random Forest** | **79%** | ⏱️ 45min | ✅ **GANADOR** |
-| XGBoost | 84% | 🐌 60min | ❌ |
-| LightGBM | 82% | 🐌🐌 90min | ❌ |
+| XGBoost | 76% | 🐌 60min | ❌ |
+| LightGBM | Falto RAM| 🐌🐌 90min | ❌ |
 
 **Criterio de selección:** Mejor balance entre rendimiento, precisión y robustez frente a la variabilidad de los datos, manteniendo además una integración sencilla con la arquitectura del sistema.
 
@@ -530,7 +529,6 @@ OPENWEATHER_API_KEY=tu_api_key_valida
 ---
 
 ## ❓ FAQ (Preguntas Frecuentes)
-(CORREGIR)
 
 <details>
 <summary><strong>¿Por qué el modelo solo soporta aeropuertos de USA?</strong></summary>
