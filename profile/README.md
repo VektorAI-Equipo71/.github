@@ -46,9 +46,9 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 ## 👥 Equipo
 
 ### 🎯 Product Owner
-- **Kevin** - [@niveKJ](https://github.com/niveKJ)
+- **Kevin Joel Lemos** - [@niveKJ](https://github.com/niveKJ)
 
-### 🎯 Scrum Master
+### 📊 Scrum Master
 - **Gloria Carolina Guerrero Velandia** - [@CarolinaG2024](https://github.com/CarolinaG2024)
 
 ### 🤖 Data Science Team
@@ -57,7 +57,7 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
   - [Karen Brenes] - [@Karen-13C](https://github.com/Karen-13C)
   - [Miguel Baillon] - [@MPBOga](https://github.com/MPBOga)
   - [Ronald Varela] - [@Ronaldvarela852](https://github.com/Ronaldvarela852)
-  - [Gloria Carolina Guerrero Velandia] - [@usuario](https://github.com/usuario)
+  - [Gloria Carolina Guerrero Velandia] - [@CarolinaG2024](https://github.com/CarolinaG2024)
   - [Cristian Camilo Maje] - [@CamiloTrr](https://github.com/CamiloTrr)
   - [Kevin Lemos] - [@usuario](https://github.com/usuario)
  
