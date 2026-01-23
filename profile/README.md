@@ -194,11 +194,11 @@ Ver guía completa en [docs/DEPLOY_OCI.md](docs/DEPLOY_OCI.md)
 | **Tipo de Modelo** | RandomForestClassifier |
 | **Número de Árboles** | 98 |
 | **Profundidad Máxima** | 22 |
-| **Features** | 15 características |
-| **Precisión** | ~79% |
-| **Recall** | 82% |
-| **F1-Score** | 86% |
-| **ROC-AUC** | 83% |
+| **Features** | 20 características |
+| **Cantidad mínima de muestras que debe tener una hoja** | 16 |
+| **Mínimo de muestras necesarias para dividir un nodo** | 10 |
+| **Clases** | Balanceadas|
+| **Máxima cantidad de variables que se consideran en cada división del árbol** | Raíz Cuadrada|
 
 ### Features del Modelo (20 en total)
 
@@ -244,10 +244,13 @@ Las cinco variables más importantes: CRS_DEP_TIME, CRS_ARR_TIME, humedad, tempe
 | Métrica | Valor | Target | Status |
 |:--------|------:|:------:|:------:|
 | **Accuracy** | 79% | >75% | ✅ |
-| **Precision** | 85% | >80% | ✅ |
-| **Recall** | 82% | >80% | ✅ |
-| **F1-Score** | 86% | >80% | ✅ |
-| **ROC-AUC** | 83% | >80% | ✅ |
+| **Precision (A tiempo)** | 91% | >80% | ✅ |
+| **Precision (Retraso)** | 49% | <80% |❌ |
+| **Recall (A tiempo)** | 82% | >80% | ✅ |
+| **Recall (Retraso)** | 68% | <80% |❌ |
+| **F1-Score (A tiempo)** | 86% | >80% | ✅ |
+| **F1-Score( Retraso)** | 57% | <80% | ❌ |
+| **ROC-AUC** | 84% | >80% | ✅ |
 
 ### Rendimiento del Sistema
 
