@@ -4,15 +4,23 @@
   
 <img width="300" height="300" alt="Vektor AI - Logo" src="https://github.com/user-attachments/assets/ab1b9eb5-94c1-4b2b-9ea5-6a6a97e00a11" />
 
-**Predicción Inteligente de Retrasos de Vuelos**
+# FlightOnTime - Sistema de Predicción de Puntualidad de Vuelos
+
+![FlightOnTime](https://img.shields.io/badge/FlightOnTime-v1.0.0-blue)
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Python](https://img.shields.io/badge/Python-3.11-green)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.1-brightgreen)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.109-teal)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![Docker](https://img.shields.io/badge/Docker-Compose-blue)
 
 Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 
-[![GitHub](https://img.shields.io/badge/GitHub-Vektor--AI-blue?style=flat&logo=github)](https://github.com/Vektor-AI)
+[![GitHub](https://img.shields.io/badge/GitHub-Vektor--AI-blue?style=flat&logo=github)](https://github.com/VektorAI-Equipo71)
 [![Hackathon](https://img.shields.io/badge/Hackathon-Oracle%20ONE-orange?style=flat)](https://www.oracle.com/latam/education/oracle-next-education/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[Demo en Vivo](#) · [Documentación](https://github.com/Vektor-AI/vektor-ai-docs) · [Reportar Bug](https://github.com/Vektor-AI/vektor-ai-api/issues)
+[Demo en Vivo](#) · [Documentación](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/docs)
 
 </div>
 
@@ -24,13 +32,38 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 
 ### 🌟 Características Principales
 
-- ✈️ **Predicción en tiempo real** de retrasos de vuelos
-- 🤖 **Modelo RandomForest** con 98 árboles de decisión
-- 🌦️ **Integración meteorológica** con OpenWeatherMap
-- 🌍 **Soporte multiidioma** (Español/Inglés)
-- 📊 **Visualización clara** de resultados y confianza
-- 🔄 **API REST** completa y documentada
-- 📱 **Interfaz responsive** moderna
+- 🤖 **Machine Learning** con modelo Random Forest entrenado
+- 🌤️ **Datos meteorológicos en tiempo real** vía OpenWeatherMap API
+- 📏 **Cálculo automático de distancias** usando fórmula de Haversine
+- 🏢 **Arquitectura de microservicios** con Java Spring Boot y Python FastAPI
+- 🎨 **Frontend moderno** estilo Oracle Redwood
+- 💾 **Persistencia PostgreSQL** para historial y estadísticas
+- 📊 **Dashboard de estadísticas** con gráficas interactivas
+- 📦 **Procesamiento por lotes** mediante archivos CSV
+
+---
+
+## 👥 Equipo
+
+### 🎯 Product Owner
+- **Kevin** - [@niveKJ](https://github.com/niveKJ)
+
+### 🎯 Scrum Master
+- **Gloria Carolina Guerrero Velandia** - [@CarolinaG2024](https://github.com/CarolinaG2024)
+
+### 🤖 Data Science Team
+- **Líder Técnico DS:** [Sofía Martínez Véjar] - [@smv1980](https://github.com/smv1980)
+- **Data Scientists:**
+  - [Karen Brenes] - [@Karen-13C](https://github.com/Karen-13C)
+  - [Miguel Baillon] - [@MPBOga](https://github.com/MPBOga)
+  - [Ronald Varela] - [@Ronaldvarela852](https://github.com/Ronaldvarela852)
+  - [Gloria Carolina Guerrero Velandia] - [@usuario](https://github.com/usuario)
+  - [Cristian Camilo Maje] - [@CamiloTrr](https://github.com/CamiloTrr)
+  - [Kevin Lemos] - [@usuario](https://github.com/usuario)
+ 
+### ⚙️ FullStack Team
+- **Líder Técnico Backend & Fontend:** [Edgar Alejandro Nestor Castillo] - [@EdgarNestorC](https://github.com/EdgarNestorC)
+- **Desarrollador FullStack:** [Jose Julio Rodriguez Benito] - [@JoseBenin82](https://github.com/JoseBenin82)
 
 ---
 
@@ -39,9 +72,9 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
 │                 │      │                  │      │                 │
-│   Frontend      │─────▶│   Backend API    │─────▶│   ML Service    │
-│   React + Vite  │      │   Spring Boot    │      │   FastAPI       │
-│   Port 5173     │      │   Port 8080      │      │   Port 8001     │
+│   Frontend      │─────▶│   Backend API   │─────▶│   ML Service    │
+│  (HTML+CSS+JS)  │      │   (Spring Boot)  │      │   (FastAPI)     │
+│   Nginx 80      │      │   Port 8080      │      │   Port 8001     │
 │                 │      │                  │      │                 │
 └─────────────────┘      └────────┬─────────┘      └────────┬────────┘
                                   │                          │
@@ -57,16 +90,58 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 
 ---
 
-## 📦 Repositorios del Proyecto
+## 📦 Contenido del Proyecto
 
 | Repositorio | Descripción | Stack | Estado |
 |------------|-------------|-------|--------|
-| [**vektor-ai-ml**](https://github.com/Vektor-AI/vektor-ai-ml) | Servicio de Machine Learning | Python, FastAPI, scikit-learn | ✅ Activo |
-| [**vektor-ai-api**](https://github.com/Vektor-AI/vektor-ai-api) | API REST Backend | Java 17, Spring Boot 3.x | ✅ Activo |
-| [**vektor-ai-frontend**](https://github.com/Vektor-AI/vektor-ai-frontend) | Interfaz de usuario | React 18, Vite, Tailwind CSS | ✅ Activo |
-| [**vektor-ai-docs**](https://github.com/Vektor-AI/vektor-ai-docs) | Documentación técnica | Markdown | ✅ Activo |
+| [**ML Service**](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/ml-service) | Servicio de Machine Learning | Python, FastAPI, scikit-learn | ✅ Activo |
+| [**Backend**](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/backend) | API REST Backend | Java 17, Spring Boot 3.x | ✅ Activo |
+| [**Frontend**](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/frontend) | Interfaz de usuario | HTML, CSS, JavaScript, Nginx | ✅ Activo |
+| [**Docs**](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/docs) | Documentación técnica | Markdown | ✅ Activo |
+| [**Notebooks**](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/notebooks) | Jupyter Notebook, Google Colab | Markdown | ✅ Activo |
 
 ---
+
+## 📁 Estructura del Proyecto
+
+```
+vektor-ai/
+├── backend/                          # Backend Java Spring Boot (Puerto 8080)
+│   ├── src/main/java/...             # Código fuente Java
+│   ├── src/main/resources/           # Configuración y schema SQL
+│   ├── pom.xml                       # Dependencias Maven
+│   └── Dockerfile
+│
+├── ml-service/                       # Servicio ML Python FastAPI (Puerto 8001)
+│   ├── main.py                       # Aplicación FastAPI
+│   ├── airport_coords.py             # Coordenadas de aeropuertos
+│   ├── random_forest_clima_v1.joblib # Modelo ML entrenado
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── frontend/                         # Frontend HTML/CSS/JS (Puerto 8081)
+│   ├── index.html                    # Dashboard principal
+│   ├── batch.html                    # Predicción por lotes
+│   ├── history.html                  # Historial
+│   ├── stats.html                    # Estadísticas
+│   ├── styles.css                    # Estilos
+│   ├── app.js                        # Lógica JavaScript
+│   └── Dockerfile
+│
+├── docs/                             # Documentación
+│   ├── ARCHITECTURE.md               # Arquitectura del sistema
+│   ├── CONTRATO_INTEGRACION.md       # Contrato de integración API
+│   └── testing/                      # Guías de pruebas
+│
+├── postman/                          # Colección Postman
+│   ├── FlightOnTime_Postman_Collection.json
+│   └── FlightOnTime_Environment.json
+│
+├── docker-compose.yml                # Orquestación de servicios
+├── .env                              # Variables de entorno (crear)
+└── README.md                         # Este archivo
+```
+
 
 ## 🚀 Stack Tecnológico
 
@@ -85,11 +160,11 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 - **API Externa:** OpenWeatherMap
 
 ### Frontend
-- **Framework:** React 18
-- **Build Tool:** Vite
-- **Styling:** Tailwind CSS
-- **HTTP Client:** Axios
-- **Icons:** Lucide React
+- HTML5 + CSS3 + Vanilla JavaScript ES6+
+- Nginx para servir estáticos
+- Chart.js (gráficas), SheetJS (Excel)
+- i18n manual (ES/EN), conversión unidades
+- HTML puro con Fetch API
 
 ### Infraestructura
 - **Cloud:** Oracle Cloud Infrastructure (OCI)
@@ -110,104 +185,202 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 | **Número de Árboles** | 98 |
 | **Profundidad Máxima** | 22 |
 | **Features** | 15 características |
-| **Precisión** | ~85% |
-| **Recall** | ~82% |
-| **F1-Score** | ~83% |
+| **Precisión** | ~79% |
+| **Recall** | 82% |
+| **F1-Score** | 86% |
+| **ROC-AUC** | 83% |
 
-### Features del Modelo
+### Features del Modelo (20 en total)
 
-1. **Temporales Cíclicas:** mes_sin, mes_cos, dia_semana_sin, dia_semana_cos
-2. **Temporales Directas:** MONTH, QUARTER, DAY_OF_MONTH, DAY_OF_WEEK
-3. **Categóricas:** OP_UNIQUE_CARRIER, ORIGIN, DEST, TAIL_NUM
+1. **Temporales Cíclicas:** es_fin_de_semana, mes_sin, mes_cos, dia_semana_sin, dia_semana_cos
+2. **Temporales Directas:** MONTH, QUARTER, DAY_OF_MONTH.
+3. **Categóricas:** OP_UNIQUE_CARRIER, ORIGIN_AIRPORT_ID, DEST_AIRPORT_ID, TAIL_NUM
 4. **Horarios:** CRS_DEP_TIME, CRS_ARR_TIME
-5. **Binarias:** es_fin_de_semana
+5. **Climáticas:** temperatura, humedad, presion, visibilidad, viento_velocidad, condicion
+
+Las cinco variables más importantes: CRS_DEP_TIME, CRS_ARR_TIME, humedad, temperatura, presión
 
 ### Aerolíneas Soportadas
 
 🛫 **15 Aerolíneas de Estados Unidos:**
 
-`9E` `AA` `AS` `B6` `DL` `F9` `G4` `HA` `MQ` `NK` `OH` `OO` `UA` `WN` `YX`
+| Código | Nombre |
+|--------|--------|
+| 9E | Endeavor Air |
+| AA | American Airlines |
+| AS | Alaska Airlines |
+| B6 | JetBlue Airways |
+| DL | Delta Air Lines |
+| F9 | Frontier Airlines |
+| G4 | Allegiant Air |
+| HA | Hawaiian Airlines |
+| MQ | Envoy Air |
+| NK | Spirit Airlines |
+| OH | PSA Airlines |
+| OO | SkyWest Airlines |
+| UA | United Airlines |
+| WN | Southwest Airlines |
+| YX | Republic Airways |
 
 ### Cobertura de Aeropuertos
 
-🌐 **397 Aeropuertos** en Estados Unidos
+🌐 **397 Aeropuertos** de Estados Unidos
 
 ---
 
-## 🔧 Inicio Rápido
+## 🚀 Cómo Levantar el Sistema en Local (Docker)
 
 ### Prerrequisitos
 
-- **Java:** 17 o superior
-- **Python:** 3.9 o superior
-- **Node.js:** 18 o superior
-- **PostgreSQL:** 14 o superior
-- **Docker:** 20.10+ (opcional)
+| Herramienta | Versión Mínima | Instalación |
+|-------------|----------------|-------------|
+| **Docker** | 20.10+ | [docker.com/get-docker](https://www.docker.com/get-docker) |
+| **Docker Compose** | 2.0+ | Incluido con Docker Desktop |
 
-### Instalación Local
+> 💡 **Verificar instalación**: Ejecutar `docker --version` y `docker compose version` en terminal
+
+---
+
+### Paso 1: Clonar el Repositorio
 
 ```bash
-# 1. Clonar todos los repositorios
-git clone https://github.com/Vektor-AI/vektor-ai-ml.git
-git clone https://github.com/Vektor-AI/vektor-ai-api.git
-git clone https://github.com/Vektor-AI/vektor-ai-frontend.git
-git clone https://github.com/Vektor-AI/vektor-ai-docs.git
-
-# 2. Configurar ML Service
-cd vektor-ai-ml
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8001
-
-# 3. Configurar Backend API
-cd ../vektor-ai-api
-mvn clean install
-mvn spring-boot:run
-
-# 4. Configurar Frontend
-cd ../vektor-ai-frontend
-npm install
-npm run dev
+git clone <url-del-repositorio>
+cd vektor-ai-backend
 ```
 
-### Con Docker Compose
+---
 
-```bash
-# Clonar repositorio de configuración
-git clone https://github.com/Vektor-AI/vektor-ai-deploy.git
-cd vektor-ai-deploy
+### Paso 2: Configurar Variable de Entorno
 
-# Levantar todos los servicios
-docker-compose up -d
+Crear un archivo `.env` en la raíz del proyecto con la API Key de OpenWeatherMap:
 
-# Verificar estado
-docker-compose ps
+```env
+OPENWEATHER_API_KEY=tu_api_key_aqui
 ```
 
-### Variables de Entorno
+> 📝 **Obtener API Key gratuita**: [openweathermap.org/api](https://openweathermap.org/api)
 
-Crea archivos `.env` en cada proyecto:
+---
 
-**ML Service:**
+### Paso 3: Descargar Modelo ML (⚠️ Importante)
+
+Debido a restricciones de tamaño de GitHub (>100MB), el modelo entrenado no se incluye en el repositorio.
+
+1. **Descargar el archivo** `random_forest_clima_v1.joblib` desde el siguiente enlace:
+   
+   👉 [**Descargar Modelo ML (Google Drive)**](https://drive.google.com/file/d/1queVcz3SF7OzxB6B92lmlzKv9X4tbJnH/view?usp=drive_link)
+
+2. **Mover el archivo descargado** a la carpeta `ml-service/` dentro del proyecto.
+
+> ❌ **Si omites este paso**, el servicio de Machine Learning fallará al iniciar.
+
+---
+
+### Paso 4: Construir y Levantar los Servicios
+
 ```bash
-OPENWEATHER_API_KEY=tu_api_key
-PORT=8001
+docker compose up --build
 ```
 
-**Backend API:**
+> ⚠️ **Importante**: Este es el comando principal para levantar el proyecto por primera vez en local.
+
+Este comando:
+1. Construye las imágenes de Docker para cada servicio
+2. Levanta todos los contenedores
+3. Configura la red interna entre servicios
+4. Inicializa la base de datos PostgreSQL
+
+---
+
+### Paso 5: Verificar que los Servicios estén Corriendo
+
+Esperar aproximadamente **90 segundos** para que todos los servicios inicien completamente.
+
+#### Tiempos de inicio aproximados:
+
+| Servicio | Tiempo |
+|----------|--------|
+| PostgreSQL | ~10 segundos |
+| ML Service | ~40 segundos (carga del modelo) |
+| Backend | ~60 segundos (compilación Maven) |
+| Frontend | ~10 segundos |
+
+#### Verificar estado de contenedores:
+
 ```bash
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=vektor_ai
-DB_USER=postgres
-DB_PASSWORD=tu_password
-ML_SERVICE_URL=http://localhost:8001
+docker compose ps
 ```
 
-**Frontend:**
+**Salida esperada:**
+```
+NAME                    STATUS
+flightontime-postgres   Up (healthy)
+flightontime-ml         Up (healthy)
+flightontime-backend    Up (healthy)
+flightontime-frontend   Up (healthy)
+```
+
+---
+
+### Paso 6: Acceder a la Aplicación
+
+Una vez que todos los servicios estén corriendo, acceder a:
+
+| Servicio | URL |
+|----------|-----|
+| **🌐 Frontend (Aplicación Web)** | http://localhost:8081 |
+| **📡 Backend API** | http://localhost:8080/api |
+| **🤖 ML Service** | http://localhost:8001 |
+| **📊 Métricas Prometheus** | http://localhost:8080/actuator/prometheus |
+
+#### Health Checks:
+
+| Servicio | URL de Health Check |
+|----------|---------------------|
+| Backend | http://localhost:8080/api/health |
+| ML Service | http://localhost:8001/health |
+
+---
+
+## 🐳 Comandos Docker Útiles
+
+### Ver logs de todos los servicios
+
 ```bash
-VITE_API_URL=http://localhost:8080/api
+docker compose logs -f
+```
+
+### Ver logs de un servicio específico
+
+```bash
+docker compose logs -f backend
+docker compose logs -f ml-service
+docker compose logs -f frontend
+docker compose logs -f postgres
+```
+
+### Detener todos los servicios
+
+```bash
+docker compose down
+```
+
+### Detener y eliminar volúmenes (reset completo)
+
+```bash
+docker compose down -v
+```
+
+### Reconstruir un servicio específico
+
+```bash
+docker compose up --build backend
+```
+
+### Ejecutar en modo detached (segundo plano)
+
+```bash
+docker compose up -d --build
 ```
 
 ---
@@ -247,9 +420,9 @@ VITE_API_URL=http://localhost:8080/api
 
 ---
 
-## 📡 Ejemplo de Uso de la API
+## 🧪 Probar la API
 
-### Request
+### Predicción Individual
 
 ```bash
 curl -X POST http://localhost:8080/api/predict \
@@ -262,135 +435,43 @@ curl -X POST http://localhost:8080/api/predict \
   }'
 ```
 
-### Response
+### Health Check
 
-```json
-{
-  "prediccion": 0,
-  "probabilidad_retraso": 0.1523,
-  "confianza": 0.8477,
-  "distancia_km": 1208.45,
-  "clima_origen": {
-    "temperatura": 12.5,
-    "humedad": 65,
-    "condicion": "Clear",
-    "descripcion": "cielo claro"
-  },
-  "clima_destino": {
-    "temperatura": 5.0,
-    "humedad": 70,
-    "condicion": "Clouds",
-    "descripcion": "muy nuboso"
-  },
-  "metadata": {
-    "aerolinea": "DL",
-    "aerolinea_nombre": "Delta Air Lines",
-    "ruta": "ATL → JFK",
-    "origen_nombre": "Hartsfield-Jackson Atlanta International Airport",
-    "destino_nombre": "John F. Kennedy International Airport",
-    "fecha_partida": "2026-01-15T14:30:00"
-  }
-}
+```bash
+curl http://localhost:8080/api/health
 ```
 
 ---
 
-## 👥 Equipo
+## 📡 Endpoints Principales
 
-### 🎯 Product Owner & Data Science
-- **Kevin** - [@tu-usuario-github](https://github.com/tu-usuario)
-  - Gestión del producto
-  - Análisis de datos
-  - Coordinación de equipos
+### Backend API (http://localhost:8080)
 
-### 🤖 Data Science Team
-- **Líder Técnico DS:** [Nombre] - [@usuario](https://github.com/usuario)
-- **Data Scientists:**
-  - [Nombre] - [@usuario](https://github.com/usuario)
-  - [Nombre] - [@usuario](https://github.com/usuario)
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/predict` | Predicción individual de vuelo |
+| POST | `/api/batch-predict` | Predicción por lotes (CSV) |
+| GET | `/api/predictions` | Consultar historial con paginación |
+| GET | `/api/stats` | Estadísticas agregadas |
+| GET | `/api/health` | Health check |
+| GET | `/api/docs` | Documentación de API |
 
-### ⚙️ Backend Team
-- **Líder Técnico Backend:** [Nombre] - [@usuario](https://github.com/usuario)
-- **Desarrolladores:**
-  - [Nombre] - [@usuario](https://github.com/usuario)
-  - [Nombre] - [@usuario](https://github.com/usuario)
+### ML Service (http://localhost:8001)
 
-### 🎨 Frontend Team
-- **Líder Técnico Frontend:** [Nombre] - [@usuario](https://github.com/usuario)
-- **Desarrolladores:**
-  - [Nombre] - [@usuario](https://github.com/usuario)
-  - [Nombre] - [@usuario](https://github.com/usuario)
-
----
-
-## 🤝 Cómo Contribuir
-
-¡Las contribuciones son bienvenidas! Sigue estos pasos:
-
-1. **Fork** el repositorio que quieras modificar
-2. **Crea una rama:** `git checkout -b feature/nueva-funcionalidad`
-3. **Commit tus cambios:** `git commit -m 'Add: nueva funcionalidad'`
-4. **Push a la rama:** `git push origin feature/nueva-funcionalidad`
-5. **Abre un Pull Request**
-
-### Convenciones de Commits
-
-- `Add:` Nueva funcionalidad
-- `Fix:` Corrección de bug
-- `Update:` Actualización de funcionalidad
-- `Docs:` Cambios en documentación
-- `Refactor:` Refactorización
-- `Test:` Agregar tests
-- `Style:` Cambios de formato
-
-### Guías de Contribución
-
-Ver [CONTRIBUTING.md](https://github.com/Vektor-AI/vektor-ai-docs/blob/main/CONTRIBUTING.md) para más detalles.
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/predict_internal` | Predicción ML interna |
+| GET | `/airports` | Lista de aeropuertos |
+| GET | `/health` | Health check |
 
 ---
 
 ## 📚 Documentación
 
-### 📖 Documentos Principales
-
-- [**Contrato de Integración**](https://github.com/Vektor-AI/vektor-ai-docs/blob/main/contracts/CONTRATO_INTEGRACION.md) - Especificación técnica completa
-- [**Guía de Setup**](https://github.com/Vektor-AI/vektor-ai-docs/blob/main/guides/setup-guide.md) - Configuración del entorno
-- [**Deployment Guide**](https://github.com/Vektor-AI/vektor-ai-docs/blob/main/guides/deployment-guide.md) - Despliegue en producción
-- [**Troubleshooting**](https://github.com/Vektor-AI/vektor-ai-docs/blob/main/guides/troubleshooting.md) - Solución de problemas
-
-### 🔗 Enlaces Útiles
-
-- **API Docs:** http://localhost:8080/api/docs
-- **Health Checks:**
-  - Backend: http://localhost:8080/api/health
-  - ML Service: http://localhost:8001/health
-- **Postman Collection:** [Descargar](https://github.com/Vektor-AI/vektor-ai-docs/blob/main/api-examples/postman-collection.json)
-
----
-
-## 🧪 Testing
-
-```bash
-# Backend
-cd vektor-ai-api
-mvn test
-
-# ML Service
-cd vektor-ai-ml
-pytest tests/
-
-# Frontend
-cd vektor-ai-frontend
-npm run test
-```
-
-### Coverage
-
-| Componente | Coverage |
-|-----------|----------|
-| Backend API | 75%+ |
-| ML Service | 80%+ |
-| Frontend | 70%+ |
+- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Arquitectura del sistema
+- **[CONTRATO_INTEGRACION.md](docs/CONTRATO_INTEGRACION.md)** - Contrato de integración API
+- **[GUIA_PRUEBAS.md](docs/testing/GUIA_PRUEBAS.md)** - Guía de pruebas
+- **[Colección Postman](postman/)** - Colección para probar la API
 
 ---
 
@@ -402,38 +483,19 @@ npm run test
 - [x] Interfaz web básica
 - [x] Integración meteorológica
 - [x] Documentación técnica
+- [x] Tests automatizados completos
+- [x] Deploy en OCI
+- [x] CI/CD con GitHub Actions
+- [x] Monitoring y alertas
+- [x] Performance optimization
+- [x] Historial de predicciones
+- [x] Dashboard de analytics
 
-### 🔄 Fase 2 - Mejoras (En Progreso)
-- [ ] Tests automatizados completos
-- [ ] Deploy en OCI
-- [ ] CI/CD con GitHub Actions
-- [ ] Monitoring y alertas
-- [ ] Performance optimization
-
-### 🚀 Fase 3 - Evolución (Planeado)
+### 🚀 Fase 2 - Evolución (Planeado)
 - [ ] App móvil (React Native)
 - [ ] Notificaciones push
-- [ ] Historial de predicciones
-- [ ] Dashboard de analytics
 - [ ] API pública con rate limiting
 - [ ] Modelo mejorado con más features
-
----
-
-## 📊 Estadísticas del Proyecto
-
-<div align="center">
-
-| Métrica | Valor |
-|---------|-------|
-| **Líneas de Código** | 15,000+ |
-| **Commits** | 200+ |
-| **Contributors** | 12 |
-| **Issues Cerrados** | 45+ |
-| **Pull Requests** | 80+ |
-| **Estrellas** | ⭐ |
-
-</div>
 
 ---
 
@@ -445,9 +507,8 @@ npm run test
 
 Este proyecto fue desarrollado como parte del **hackathon final** del Programa **Oracle Next Education (ONE)**, una iniciativa de Oracle en colaboración con Alura LATAM para formar desarrolladores en Latinoamérica.
 
-**Equipo:** Grupo 8  
-**Duración:** 5 semanas  
-**Participantes:** 80+ equipos  
+**Equipo:** Grupo 71  
+**Duración:** 5 semanas    
 **Plataforma:** NoCountry
 
 [Más sobre Oracle ONE](https://www.oracle.com/latam/education/oracle-next-education/)
@@ -463,7 +524,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para
 ```
 MIT License
 
-Copyright (c) 2025 Vektor AI - Equipo 8
+Copyright (c) 2025 Vektor AI - Equipo 71
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -475,15 +536,7 @@ in the Software without restriction...
 ## 📞 Contacto y Soporte
 
 ### 💬 Canales de Comunicación
-
-- **GitHub Issues:** [Reportar problemas](https://github.com/Vektor-AI/vektor-ai-api/issues)
-- **GitHub Discussions:** [Foro de la comunidad](https://github.com/orgs/Vektor-AI/discussions)
-- **Email del Equipo:** vektor.ai.team@gmail.com (ejemplo)
-
-### 🔗 Redes Sociales
-
-- **LinkedIn:** [Vektor AI](https://linkedin.com/company/vektor-ai) (ejemplo)
-- **Twitter:** [@VektorAI](https://twitter.com/vektorai) (ejemplo)
+- **Email del Equipo:** vektor.ia.equipo71@gmail.com
 
 ---
 
@@ -503,26 +556,17 @@ Agradecemos especialmente a:
 
 Si este proyecto te resultó útil, ¡considera darle una estrella! ⭐
 
-```bash
-# Clonar el proyecto completo
-git clone https://github.com/Vektor-AI/vektor-ai-deploy.git
-cd vektor-ai-deploy
-./setup.sh
-```
-
 ---
 
 <div align="center">
 
-### 💙 Desarrollado con pasión por el Equipo 8
+### 💙 Desarrollado con pasión por el Equipo 71
 
 **Vektor AI** - *Predicción Inteligente de Retrasos de Vuelos*
 
-[⬆ Volver arriba](#-vektor-ai)
-
 ---
 
-[![GitHub](https://img.shields.io/badge/GitHub-Vektor--AI-blue?style=for-the-badge&logo=github)](https://github.com/Vektor-AI)
+[![GitHub](https://img.shields.io/badge/GitHub-Vektor--AI-blue?style=for-the-badge&logo=github)](https://github.com/VektorAI-Equipo71)
 [![Oracle ONE](https://img.shields.io/badge/Oracle-ONE-orange?style=for-the-badge&logo=oracle)](https://www.oracle.com/latam/education/oracle-next-education/)
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/Vektor-AI)
 
