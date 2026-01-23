@@ -541,10 +541,11 @@ El dataset utilizado proviene del Bureau of Transportation Statistics (BTS) de E
 <details>
 <summary><strong>¿Qué tan preciso es el modelo?</strong></summary>
 
-El modelo tiene un **79% de accuracy** en el conjunto de prueba, con **85% de precision** y **82% de recall**. Esto significa que:
+El modelo tiene un **79% de accuracy** en el conjunto de prueba Para la clase "retraso" (1.0) el despeño es **49% de precision** y **68% de recall**. Esto significa que:
 - 79 de cada 100 predicciones son correctas
-- Cuando predice "retraso", acierta el 85% de las veces
-- Detecta el 82% de los retrasos reales
+- Cuando el modelo predice “retraso”, acierta en el 49% de los casos (precision), es decir, aproximadamente la mitad de las alertas de retraso son verdaderas.
+- El modelo detecta el 68% de los retrasos reales (recall), lo que indica una buena capacidad para anticipar retrasos, aunque con presencia de falsos positivos.
+Este comportamiento es consistente con un enfoque orientado a no perder retrasos reales, algo deseable en contextos operativos, especialmente considerando que el dataset está desbalanceado y se utilizó class_weight='balanced'.
 </details>
 
 <details>
