@@ -104,7 +104,7 @@ open http://localhost:8081
 
 ### Opción 2: Deploy en OCI
 
-Ver guía completa en [docs/DEPLOY_OCI.md](docs/DEPLOY_OCI.md)
+Ver guía completa en [docs/MANUAL-DESPLIEGUE-OCI.pdf](https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/MANUAL-DESPLIEGUE-OCI.pdf)
 
 ---
 
