@@ -65,21 +65,16 @@ El sistema está desplegado y disponible en:
 ## 🎥 Demo
 
 ### Vista Previa de la Aplicación
-(AGREGAR CARPETA CON IMAGENES)
 
 <div align="center">
 
-![Dashboard Principal](docs/images/dashboard.png)
-*Dashboard principal con predicción en tiempo real*
-(COLOCAR LINK)
+<img width="300" height="300" alt="Dashboard-1" src=https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/images/dashboard-preview1.png/>   <img width="300" height="300" alt="Dashboard-1" src=https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/images/dashboard-preview3.png/>
 
-![Estadísticas](docs/images/stats.png)
-*Dashboard de estadísticas y analytics*
-(COLOCAR LINK)
+*Dashboard principal con gestion completa y predicción en tiempo real*
 
-![Predicción por Lotes](docs/images/batch.png)
-*Interfaz de predicción por lotes (CSV)*
-(COLOCAR LINK)
+<img width="300" height="300" alt="Dashboard-1" src=https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/images/stats.png/>    <img width="300" height="300" alt="Dashboard-1" src=https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/images/batch-preview.png/>
+
+*(1) Dashboard de estadísticas y analytics e (2) Interfaz de predicción por lotes (CSV)*
 
 </div>
 
