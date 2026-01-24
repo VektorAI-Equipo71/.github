@@ -127,8 +127,8 @@ Ver guía completa en [docs/DEPLOY_OCI.md](docs/DEPLOY_OCI.md)
   - [Kevin Lemos](https://www.linkedin.com/in/kevin-joel-lemos-583845219/) - [@niveKJ](https://github.com/niveKJ)
  
 ### ⚙️ FullStack Team
-- **Líder Técnico Backend & Fontend:** [Edgar Alejandro Nestor Castillo] - [@EdgarNestorC](https://github.com/EdgarNestorC)
-- **Desarrollador FullStack:** [Jose Julio Rodriguez Benito] - [@JoseBenin82](https://github.com/JoseBenin82)
+- **Líder Técnico Backend & Fontend:** [Edgar Alejandro Nestor Castillo](https://www.linkedin.com/in/edgar-nestor-75090b272/) - [@EdgarNestorC](https://github.com/EdgarNestorC)
+- **Desarrollador FullStack:** [Jose Julio Rodriguez Benito](https://www.linkedin.com/in/julius-benito/) - [@JoseBenin82](https://github.com/JoseBenin82)
 
 ---
 
