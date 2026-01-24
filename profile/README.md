@@ -124,7 +124,7 @@ Ver guía completa en [docs/DEPLOY_OCI.md](docs/DEPLOY_OCI.md)
   - [Ronald Varela](https://www.linkedin.com/in/ronaldvarelam) - [@Ronaldvarela852](https://github.com/Ronaldvarela852)
   - [Gloria Carolina Guerrero Velandia](https://www.linkedin.com/in/gloria-carolina-guerrero-velandia) - [@CarolinaG2024](https://github.com/CarolinaG2024)
   - [Cristian Camilo Maje](https://www.linkedin.com/in/camilo-montenegro-) - [@CamiloTrr](https://github.com/CamiloTrr)
-  - [Kevin Lemos](https://www.linkedin.com/in/kevin-joel-lemos-583845219/) - [@usuario](https://github.com/usuario)
+  - [Kevin Lemos](https://www.linkedin.com/in/kevin-joel-lemos-583845219/) - [@niveKJ](https://github.com/niveKJ)
  
 ### ⚙️ FullStack Team
 - **Líder Técnico Backend & Fontend:** [Edgar Alejandro Nestor Castillo] - [@EdgarNestorC](https://github.com/EdgarNestorC)
