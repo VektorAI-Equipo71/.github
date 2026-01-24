@@ -50,6 +50,18 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 
 ---
 
+## 🌐 Acceso al Sistema
+
+### 🚀 Entorno de Producción
+
+El sistema está desplegado y disponible en:
+
+**🔗 URL de Producción**: [http://159.54.159.244/index.html](http://159.54.159.244/index.html)
+
+> 🌟 Accede directamente a la aplicación en producción para probar todas las funcionalidades del sistema.
+
+---
+
 ## 🎥 Demo
 
 ### Vista Previa de la Aplicación
@@ -293,7 +305,7 @@ Durante el desarrollo se evaluaron 4 modelos:
 ## 📁 Estructura del Proyecto
 
 ```
-vektor-ai/
+vektor-ai-backend/
 ├── backend/                          # Backend Java Spring Boot (Puerto 8080)
 │   ├── src/main/java/...             # Código fuente Java
 │   ├── src/main/resources/           # Configuración y schema SQL
@@ -319,6 +331,7 @@ vektor-ai/
 ├── docs/                             # Documentación
 │   ├── ARCHITECTURE.md               # Arquitectura del sistema
 │   ├── CONTRATO_INTEGRACION.md       # Contrato de integración API
+│   ├── MANUAL-DESPLIEGUE-OCI.pdf     # Manual de despliegue en Oracle Cloud
 │   └── testing/                      # Guías de pruebas
 │
 ├── postman/                          # Colección Postman
@@ -668,10 +681,10 @@ curl http://localhost:8080/api/health
 
 ## 📚 Documentación
 
-- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - Arquitectura del sistema
-- **[CONTRATO_INTEGRACION.md](docs/CONTRATO_INTEGRACION.md)** - Contrato de integración API
-- **[GUIA_PRUEBAS.md](docs/testing/GUIA_PRUEBAS.md)** - Guía de pruebas
-- **[Colección Postman](postman/)** - Colección para probar la API
+- **[ARCHITECTURE.md](https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/ARCHITECTURE.md)** - Arquitectura del sistema
+- **[CONTRATO_INTEGRACION.md](https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/CONTRATO_INTEGRACION.md)** - Contrato de integración API
+- **[GUIA_PRUEBAS.md](https://github.com/VektorAI-Equipo71/vektor-ai/blob/main/docs/testing/GUIA_PRUEBAS.md)** - Guía de pruebas
+- **[Colección Postman](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/postman)** - Colección para probar la API
 
 ---
 
@@ -738,12 +751,13 @@ Abre un [issue](https://github.com/VektorAI-Equipo71/vektor-ai/issues) con:
 
 <div align="center">
 
-![Oracle ONE](https://via.placeholder.com/150x50?text=Oracle+ONE)
+<img width="200" height="120" alt="ONE - Logo" src="https://github.com/user-attachments/assets/7f90bb38-b457-41af-814e-482c650f6003" />
 
-Este proyecto fue desarrollado como parte del **hackathon final** del Programa **Oracle Next Education (ONE)**, una iniciativa de Oracle en colaboración con Alura LATAM para formar desarrolladores en Latinoamérica.
+
+Este proyecto fue desarrollado como parte del **hackathon final** del Programa **Oracle Next Education (ONE)**, una iniciativa de Oracle en colaboración con Alura LATAM para formar desarrolladores y data scientist en Latinoamérica.
 
 **Equipo:** Grupo 71  
-**Duración:** 5 semanas    
+**Duración:** 6 semanas    
 **Plataforma:** NoCountry
 
 [Más sobre Oracle ONE](https://www.oracle.com/latam/education/oracle-next-education/)
