@@ -111,20 +111,20 @@ Ver guía completa en [docs/DEPLOY_OCI.md](docs/DEPLOY_OCI.md)
 ## 👥 Equipo
 
 ### 🎯 Product Owner
-- **Kevin Joel Lemos** - [@niveKJ](https://github.com/niveKJ)
+- **[Kevin Joel Lemos](https://www.linkedin.com/in/kevin-joel-lemos-583845219/)** - [@niveKJ](https://github.com/niveKJ)
 
 ### 📊 Scrum Master
-- **Gloria Carolina Guerrero Velandia** - [@CarolinaG2024](https://github.com/CarolinaG2024)
+- **[Gloria Carolina Guerrero Velandia](https://www.linkedin.com/in/gloria-carolina-guerrero-velandia)** - [@CarolinaG2024](https://github.com/CarolinaG2024)
 
 ### 🤖 Data Science Team
-- **Líder Técnico DS:** [Sofía Martínez Véjar] - [@smv1980](https://github.com/smv1980)
+- **Líder Técnico DS:** [Sofía Martínez Véjar](https://www.linkedin.com/in/spmv1980) - [@smv1980](https://github.com/smv1980)
 - **Data Scientists:**
-  - [Karen Brenes] - [@Karen-13C](https://github.com/Karen-13C)
-  - [Miguel Baillon] - [@MPBOga](https://github.com/MPBOga)
-  - [Ronald Varela] - [@Ronaldvarela852](https://github.com/Ronaldvarela852)
-  - [Gloria Carolina Guerrero Velandia] - [@CarolinaG2024](https://github.com/CarolinaG2024)
-  - [Cristian Camilo Maje] - [@CamiloTrr](https://github.com/CamiloTrr)
-  - [Kevin Lemos] - [@usuario](https://github.com/usuario)
+  - [Karen Brenes](https://www.linkedin.com/in/karen-brenes-c/),- [@Karen-13C](https://github.com/Karen-13C)
+  - [Miguel Baillon](https://www.linkedin.com/in/miguel-baillon-opazo-738b5487) - [@MPBOga](https://github.com/MPBOga)
+  - [Ronald Varela](https://www.linkedin.com/in/ronaldvarelam) - [@Ronaldvarela852](https://github.com/Ronaldvarela852)
+  - [Gloria Carolina Guerrero Velandia](https://www.linkedin.com/in/gloria-carolina-guerrero-velandia) - [@CarolinaG2024](https://github.com/CarolinaG2024)
+  - [Cristian Camilo Maje](https://www.linkedin.com/in/camilo-montenegro-) - [@CamiloTrr](https://github.com/CamiloTrr)
+  - [Kevin Lemos](https://www.linkedin.com/in/kevin-joel-lemos-583845219/) - [@usuario](https://github.com/usuario)
  
 ### ⚙️ FullStack Team
 - **Líder Técnico Backend & Fontend:** [Edgar Alejandro Nestor Castillo] - [@EdgarNestorC](https://github.com/EdgarNestorC)
