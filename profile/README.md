@@ -20,7 +20,7 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 [![Hackathon](https://img.shields.io/badge/Hackathon-Oracle%20ONE-orange?style=flat)](https://www.oracle.com/latam/education/oracle-next-education/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[Demo en Vivo](#) · [Documentación](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/docs)
+[App en linea](http://159.54.159.244/) · [Documentación](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/docs) [Landing page - VerktorAI](https://josebenin82.github.io/landing-vektor-ai/)
 
 </div>
 
