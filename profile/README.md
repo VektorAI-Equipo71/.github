@@ -20,7 +20,7 @@ Proyecto desarrollado para el Hackathon Oracle ONE + Alura LATAM - NoCountry
 [![Hackathon](https://img.shields.io/badge/Hackathon-Oracle%20ONE-orange?style=flat)](https://www.oracle.com/latam/education/oracle-next-education/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[App en linea](http://159.54.159.244/) · [Documentación](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/docs) · [Landing page - VerktorAI](https://josebenin82.github.io/landing-vektor-ai/)
+[App en linea](http://159.54.159.244/) · [Video de YouTube](https://www.youtube.com/watch?v=Vxq--ZCVTao) · [Documentación](https://github.com/VektorAI-Equipo71/vektor-ai/tree/main/docs) · [Landing page - VerktorAI](https://josebenin82.github.io/landing-vektor-ai/)
 
 </div>
 
@@ -80,10 +80,14 @@ El sistema está desplegado y disponible en:
 
 ### 🎬 Video Demo
 
-[![Ver Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-(COLOCAR LINK)
+> ▶️ Click en la imagen para ver el demo completo
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=Vxq--ZCVTao">
+    <img src="https://img.youtube.com/vi/Vxq--ZCVTao/maxresdefault.jpg" width="600">
+  </a>
+</p>
 
-**Duración:** 3 minutos | **Idioma:** Español
+**Duración:** 07:44 | **Idioma:** Español
 
 ---
 
