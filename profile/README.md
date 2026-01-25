@@ -746,11 +746,11 @@ Abre un [issue](https://github.com/VektorAI-Equipo71/vektor-ai/issues) con:
 - **Entorno:** OS, versiones de Docker, etc.
 
 ---
-## 🏆 Hackathon Oracle ONE 2025
+## 🏆 Hackathon ONE 2025 - Oracle + Alura Latam
 
 <div align="center">
 
-<img width="200" height="120" alt="ONE - Logo" src="https://github.com/user-attachments/assets/7f90bb38-b457-41af-814e-482c650f6003" />
+<img width="200" height="120" alt="ONE - Logo" src="https://github.com/user-attachments/assets/7f90bb38-b457-41af-814e-482c650f6003" />     <img width="180" height="100" alt="Alura - Logo" src="https://github.com/user-attachments/assets/7de0014e-1272-4dd2-8a7a-7d834f090a46" />
 
 
 Este proyecto fue desarrollado como parte del **hackathon final** del Programa **Oracle Next Education (ONE)**, una iniciativa de Oracle en colaboración con Alura LATAM para formar desarrolladores y data scientist en Latinoamérica.
@@ -759,7 +759,7 @@ Este proyecto fue desarrollado como parte del **hackathon final** del Programa *
 **Duración:** 6 semanas    
 **Plataforma:** NoCountry
 
-[Más sobre Oracle ONE](https://www.oracle.com/latam/education/oracle-next-education/)
+[Más sobre el Programa ONE](https://www.oracle.com/latam/education/oracle-next-education/)
 
 </div>
 
